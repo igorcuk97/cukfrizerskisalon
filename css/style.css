@@ -1,0 +1,245 @@
+body{
+	background-color: #191919;
+	font-family: 'Saira Condensed', sans-serif;
+	overflow-x: hidden;
+}
+
+a{
+	text-decoration:none;
+}
+
+.txtNaslov{
+	color:white;
+	font-size: 40px;
+}
+.txtVazno{
+	color:yellow;
+	font-size: 25px;
+}
+.txtNormal{
+	color: white;
+	font-size: 25px;
+}
+.txtFuter{
+	color: white;
+	font-size: 15px;
+}
+/*BLOK0*/
+/*pocetna*/
+#pocetna{
+	height: auto;
+    background-image: url(../images/slika01.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+#pocetniLogo{
+	margin-top: 6%;
+	margin-bottom: 0;
+}
+.txtPocetak{
+	margin-top: 0px;
+	color: yellow;
+	font-size: 60px;
+}
+/*NAVIGACIJA*/
+#pocetna #logo{
+	padding-top:0%;
+}
+.navbar-inverse .navbar-nav li a{
+	color: white;
+}
+.navbar-inverse .navbar-nav li a:hover{
+	color: yellow;
+}
+.navbar-inverse .navbar-nav .socmedia{
+	margin-top: 5px;
+}
+/*FORMA DESNO*/
+/* login meni desno */
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px;
+}
+.help-block a{
+	color: black;
+}
+.bottom{
+	color: white;
+    background-color: black;
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+.bottom a{
+	color: yellow;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-primary{
+    color: #fff;
+    background-color:black;
+}
+.btn-primary:hover{
+    color: #000;
+    background-color:yellow; 
+}
+.btn-fb{
+    color: #fff;
+    background-color:black;
+}
+.btn-fb:hover{
+    color: #000;
+    background-color:yellow; 
+}
+.btn-tw{
+    color: #fff;
+    background-color:black;
+}
+.btn-tw:hover{
+    color: #000;
+    background-color:yellow;
+}
+/* login meni desno kraj */
+/*KRAJ FORME*/
+/*KRAJ NAV*/
+
+/*BLOK1*/
+/*dobrodosli*/
+#dobrodosli {
+	padding: 5% 0%;
+}
+#dobrodosli h3,p{
+	margin-top: 5%;
+}
+/*BLOK2*/
+/*naseusluge*/
+
+#naseusluge {
+	padding: 5% 0%;
+}
+#naseusluge h3{
+	margin-bottom: 2%;
+}
+.usluge{
+	background: transparent;
+}
+/*BLOK3*/
+/*zastomi*/
+
+#zastomi{
+	padding: 5% 0%;
+}
+#zastomi h3,p{
+	margin-top: 5%;
+}
+/*BLOK4*/
+/*nasaekipa*/
+#nasaekipa{
+	padding: 5% 0%;
+}
+#nasaekipa h3{
+	margin-bottom: 2%;
+}
+#nasaekipa h5{
+	font-size: 20px;
+}
+.usluge{
+	background: transparent;
+}
+
+.dugmefa{
+	background-color: yellow;
+	color: black;
+}
+
+.uslugaH{
+	color: white;
+}
+.uslugaP{
+	color: white;
+}
+
+/*modal*/
+.modal-content{
+	background-color:#191919;
+}
+.modal-title{
+	font-size: 25px;
+	color: yellow;
+}
+.modal-body{
+	background-color:#000;
+}
+.modal-body p{
+	font-size: 20px;
+	color: white;
+}
+.modal-footer button{
+	color:#fff;
+	background-color: #000;
+	border:1px solid #fff;
+}
+.modal-footer button:hover{
+	color:#000;
+	background-color: yellow;
+	border:1px solid #000;
+}
+/*modal*/
+/*BLOK5*/
+/*zakazivanje*/
+#zakazivanje{
+	padding: 5% 0%;
+}
+
+.h2{
+	letter-spacing:3px;
+	color:#fff;
+}
+.h3{
+	margin-bottom: 2%;
+}
+.lbc{
+	color: white;
+}
+.polje{
+	background-color:transparent;
+	color: #fff;
+	border:1px solid yellow;
+}
+.polje option{
+	background-color:#191919;
+}
+.dugme {
+	background-color:transparent;
+	padding:15px 40px;
+	color:#fff;
+	border:1px solid yellow;
+	border-radius:0px;
+}
+.dugme:hover {
+	border:1px solid black;
+	background-color:yellow;
+	color:black;
+}
+/*BLOK6*/
+/*futer*/
+#futer p{
+	font-size: 15px;
+	margin-top: 0;
+}
+/*BLOK+*/
+/*SLAJDER*/
